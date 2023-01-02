@@ -2,25 +2,34 @@
 <component type="desktop-application">
   <id>net.worldofpadman.WoP</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary=https://worldofpadman.net/en/about/copyright/</project_license>
+  <project_license>LicenseRef-proprietary=https://github.com/PadWorld-Entertainment/worldofpadman/blob/main/COPYING.md</project_license>
   <provides>
     <id>worldofpadman.desktop</id>
   </provides>
-  <name>World of Padman</name>
-  <summary>Comic 3D-Shooter</summary>
+  <name>World of PADMAN</name>
+  <summary>Freeware Fun Shooter</summary>
   <description>
     <p>
-      World of Padman (WoP) is a first-person shooter computer game. The idea is based on the Padman comic strip
-      for the magazine PlayStation Games created by the professional cartoon artist Andreas 'ENTE' Endres.
-      Most of the maps in the game are lilliput style.
+      World of PADMAN is an incredibly carefully designed and colorful freeware fun shooter for young and young-at-heart people, created by ENTE &amp; team. 
+      It is the domain of ENTE's comic strip super-hero PADMAN and his motley crew. It's their mission to make your game with some seriously addictive fun, 
+      whatever your skill level and whatever character role you jump into.
+    </p>
+    <p>
+      Over the years maps have been revamped, bots improved, Killerducks kept hungry, weapons re-polished and much more, such as new sounds, skins, secrets, 
+      effects, and powerups! In all, there are 24 maps. Each supports up to 7 game modes, comprising WoP's unique Spray Your Color, Last Pad Standing, Big Balloon 
+      and of course Capture The Lolly, as well as those old favorite Free For All. Meet scaled-up and richly detailed maps of everyday places where imaginative 
+      characters go berserk with an array of colorful plastic weaponry and powerups. Start rockin' to the soundtrack of Dieselkopf and Neurological soundtrack and 
+      the Pad-Anthem, performed by Green Sun. So grab your earphones.
     </p>
   </description>
   <url type="homepage">https://worldofpadman.net</url>
+  <url type="bugtracker">https://github.com/PadWorld-Entertainment/worldofpadman/issues</url>
   <screenshots>
     <screenshot type="default">https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309709.jpg</screenshot>
     <screenshot>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309711.jpg</screenshot>
     <screenshot>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309713.jpg</screenshot>
   </screenshots>
+  <developer_name>PadWorld Entertainment</developer_name>
   <releases>
     <release version="1.6.2" date="2021-11-28"/>
   </releases>
