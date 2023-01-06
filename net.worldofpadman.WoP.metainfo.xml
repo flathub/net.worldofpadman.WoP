@@ -7,19 +7,25 @@
     <id>worldofpadman.desktop</id>
   </provides>
   <name>World of PADMAN</name>
-  <summary>Freeware Fun Shooter</summary>
+  <summary>Incredibly carefully designed and colorful freeware fun shooter for young and young-at-heart people</summary>
   <description>
     <p>
-      World of PADMAN is an incredibly carefully designed and colorful freeware fun shooter for young and young-at-heart people, created by ENTE &amp; team. 
-      It is the domain of ENTE's comic strip super-hero PADMAN and his motley crew. It's their mission to make your game with some seriously addictive fun, 
+      From the earliest PadMaps for Q3A came the mod PadWorld, followed by the next colorful evolution, World of PADMAN. Developed and headed by 
+      cartoonist and illustrator ENTE, PadWorld Entertainment presents a freeware fun shooter, that's powered by an extended id-Tech3 graphics engine.
+    </p>
+    <p>
+      WoP is the domain of ENTE's comic strip super-hero PADMAN and his motley crew. It's their mission to make your game with some seriously addictive fun, 
       whatever your skill level and whatever character role you jump into.
     </p>
     <p>
-      Over the years maps have been revamped, bots improved, Killerducks kept hungry, weapons re-polished and much more, such as new sounds, skins, secrets, 
-      effects, and powerups! In all, there are 24 maps. Each supports up to 7 game modes, comprising WoP's unique Spray Your Color, Last Pad Standing, Big Balloon 
-      and of course Capture The Lolly, as well as those old favorite Free For All. Meet scaled-up and richly detailed maps of everyday places where imaginative 
-      characters go berserk with an array of colorful plastic weaponry and powerups. Start rockin' to the soundtrack of Dieselkopf and Neurological soundtrack and 
-      the Pad-Anthem, performed by Green Sun. So grab your earphones.
+      Over the years maps have been revamped, bots improved, Killerducks kept hungry, weapons re-polished and much more! In all, there are 24 maps. Each 
+      supports up to 7 game types, comprising WoP's unique Spray Your Color, Last Pad Standing, Big Balloon, and of course Capture The Lolly. Meet scaled-up 
+      and richly detailed environments of everyday places, where imaginative characters go berserk with an array of colorful plastic weaponry and powerups. 
+      Start rockin' to the soundtrack of Dieselkopf, and Neurological and listen to the Pad-Anthem, performed by Green Sun. So, grab your earphones!
+    </p>
+    <p>
+      Not enough human players on public servers? Practice with bots and join the community on the official PadWorld server for the Padday community events, 
+      every first Sunday of a month 7:00pm (CET).
     </p>
   </description>
   <url type="homepage">https://worldofpadman.net</url>
