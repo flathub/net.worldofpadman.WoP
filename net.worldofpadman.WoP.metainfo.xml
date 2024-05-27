@@ -6,6 +6,7 @@
   <provides>
     <id>worldofpadman.desktop</id>
   </provides>
+  <launchable type="desktop-id">net.worldofpadman.WoP.desktop</launchable>
   <name>World of PADMAN</name>
   <summary>Incredibly carefully designed and colorful freeware fun shooter for young and young-at-heart people</summary>
   <description>
@@ -31,9 +32,9 @@
   <url type="homepage">https://worldofpadman.net</url>
   <url type="bugtracker">https://github.com/PadWorld-Entertainment/worldofpadman/issues</url>
   <screenshots>
-    <screenshot type="default">https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309709.jpg</screenshot>
-    <screenshot>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309711.jpg</screenshot>
-    <screenshot>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309713.jpg</screenshot>
+    <screenshot type="default"><image>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309709.jpg</image></screenshot>
+    <screenshot><image>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309711.jpg</image></screenshot>
+    <screenshot><image>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309713.jpg</image></screenshot>
   </screenshots>
   <developer_name>PadWorld Entertainment</developer_name>
   <releases>
