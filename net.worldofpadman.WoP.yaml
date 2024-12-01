@@ -31,12 +31,15 @@ modules:
     sources:
       - type: archive
         # Community url, however SHA256 checksum matches the official archive from Mod DB
-        url: http://www.zock-server.de/downloads/WoP_1.6.2/wop-1.6.2-full-unified.zip
-        sha256: 526d5936225b37fa8a5b94a7c02dc600126d1f2fb1155fd0e372c36075344335
+        url: https://github.com/PadWorld-Entertainment/worldofpadman/releases/download/v1.7.0/wop-1.7.0-unified.zip
+        sha256: 2eb94c0d98dadc70ce0f2e87780280cdbffd4a838b267f523835dc91bed30714
       - type: git
         url: https://github.com/PadWorld-Entertainment/worldofpadman.git
-        tag: v1.6.2
-        commit: 523c835eb0738d0da22b0e078a587108e8c10e30
+        tag: v1.7.0
+        commit: 8da7d0eb7205a2a1dff3f8cb07010214337796e2
+        x-checker-data:
+          type: git
+          tag-pattern: ^(v[\d.]+)$
       - type: file
         path: net.worldofpadman.WoP.desktop
       - type: file
@@ -50,6 +53,7 @@ modules:
       - type: shell
         commands:
           - rm *.x86_64 *.exe *.so *.dylib
+          - rm -r *.x86_64.app
     post-install:
       - mkdir -p /app/share/games/wop
       - install -m 0755 build/release-linux-*/wop.* /app/share/games/wop/
