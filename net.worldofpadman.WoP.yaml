@@ -35,8 +35,8 @@ modules:
         sha256: 526d5936225b37fa8a5b94a7c02dc600126d1f2fb1155fd0e372c36075344335
       - type: git
         url: https://github.com/PadWorld-Entertainment/worldofpadman.git
-        tag: v1.6.2
-        commit: 523c835eb0738d0da22b0e078a587108e8c10e30
+        tag: v1.7.0
+        commit: 8da7d0eb7205a2a1dff3f8cb07010214337796e2
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
