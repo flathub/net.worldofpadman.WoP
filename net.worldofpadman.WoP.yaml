@@ -37,9 +37,6 @@ modules:
         url: https://github.com/PadWorld-Entertainment/worldofpadman.git
         tag: v1.6.2
         commit: 523c835eb0738d0da22b0e078a587108e8c10e30
-        x-checker-data:
-          type: git
-          tag-pattern: ^(v[\d.]+)$
       - type: file
         path: net.worldofpadman.WoP.desktop
       - type: file
