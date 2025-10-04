@@ -31,7 +31,7 @@ modules:
     sources:
       - type: archive
         # Community url, however SHA256 checksum matches the official archive from Mod DB
-        url: http://www.zock-server.de/downloads/WoP_1.6.2/wop-1.6.2-full-unified.zip
+        url: https://github.com/PadWorld-Entertainment/worldofpadman/releases/download/v1.6.2/wop-1.6.2-full-unified.zip
         sha256: 526d5936225b37fa8a5b94a7c02dc600126d1f2fb1155fd0e372c36075344335
       - type: git
         url: https://github.com/PadWorld-Entertainment/worldofpadman.git
