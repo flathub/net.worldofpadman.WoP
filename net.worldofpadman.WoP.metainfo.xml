@@ -10,6 +10,7 @@
   <name>World of PADMAN</name>
   <summary>Incredibly carefully designed and colorful freeware fun shooter for young and young-at-heart people</summary>
   <description>
+    <p>**This is a community package of World of PADMAN and not officially supported by PadWorld Entertainment.**</p>
     <p>
       From the earliest PadMaps for Q3A came the mod PadWorld, followed by the next colorful evolution, World of PADMAN. Developed and headed by 
       cartoonist and illustrator ENTE, PadWorld Entertainment presents a freeware fun shooter, that's powered by an extended id-Tech3 graphics engine.
@@ -31,6 +32,7 @@
   </description>
   <url type="homepage">https://worldofpadman.net</url>
   <url type="bugtracker">https://github.com/PadWorld-Entertainment/worldofpadman/issues</url>
+  <url type="vcs-browser">https://github.com/PadWorld-Entertainment/worldofpadman</url>
   <screenshots>
     <screenshot type="default"><image>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309709.jpg</image></screenshot>
     <screenshot><image>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309711.jpg</image></screenshot>
