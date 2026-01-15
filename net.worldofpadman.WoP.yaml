@@ -1,8 +1,8 @@
-app-id: net.worldofpadman.WoP
+id: net.worldofpadman.WoP
 tags:
   - proprietary
 runtime: org.freedesktop.Platform
-runtime-version: 24.08
+runtime-version: 25.08
 sdk: org.freedesktop.Sdk
 command: worldofpadman
 finish-args:
@@ -24,6 +24,8 @@ cleanup:
 modules:
   - name: wop
     buildsystem: autotools
+    build-options:
+      cflags: -std=gnu17
     no-autogen: true
     no-make-install: true
     make-args:
