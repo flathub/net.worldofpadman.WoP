@@ -48,7 +48,6 @@
   <developer_name>PadWorld Entertainment</developer_name>
   <releases>
     <release version="1.6.2" date="2021-11-28"/>
-      <url type="details">https://github.com/PadWorld-Entertainment/worldofpadman/releases/tag/v1.6.2</url>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">moderate</content_attribute>
