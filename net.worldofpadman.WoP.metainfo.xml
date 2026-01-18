@@ -6,32 +6,39 @@
   <provides>
     <id>worldofpadman.desktop</id>
   </provides>
+  <branding>
+    <color type="primary" scheme_preference="light">#7781ce</color>
+    <color type="primary" scheme_preference="dark">#444444</color>
+  </branding>
   <launchable type="desktop-id">net.worldofpadman.WoP.desktop</launchable>
   <name>World of PADMAN</name>
-  <summary>Incredibly carefully designed and colorful freeware fun shooter for young and young-at-heart people</summary>
+  <summary>A colorful freeware fun shooter</summary>
   <description>
-    <p>**This is a community package of World of PADMAN and not officially supported by PadWorld Entertainment.**</p>
     <p>
-      From the earliest PadMaps for Q3A came the mod PadWorld, followed by the next colorful evolution, World of PADMAN. Developed and headed by 
-      cartoonist and illustrator ENTE, PadWorld Entertainment presents a freeware fun shooter, that's powered by an extended id-Tech3 graphics engine.
+      The earliest PadMaps for Quake 3 Arena gave rise to the mod PadWorld, which was followed by the colorful evolution, World of PADMAN. Developed by 
+      cartoonist and illustrator ENTE, PadWorld Entertainment presents a colorful, freeware, fun shooter for the young and the young at heart, powered 
+      by an enhanced id Tech 3 graphics engine.
     </p>
     <p>
-      WoP is the domain of ENTE's comic strip super-hero PADMAN and his motley crew. It's their mission to make your game with some seriously addictive fun, 
-      whatever your skill level and whatever character role you jump into.
+      WoP is the domain of ENTE's comic strip superhero PADMAN and his motley crew. Their mission is to make your gaming experience seriously addictively 
+      fun, no matter your skill level or character role you jump into. Over the years, the maps have been revamped, the bots improved, the KillerDucks have 
+      been kept hungry, and the weapons have been re-polished. In all, there are 24 maps. Each supports up to nine game types, including WoP's unique Spray 
+      Your Color, Last Pad Standing, Big Balloon, Catch The KillerDuck, Freeze Tag, and, of course, Capture the Lolly. Explore scaled-up, richly detailed 
+      environments of everyday places where imaginative characters go berserk with colorful plastic weaponry and power-ups. Start rockin' to the Dieselkopf 
+      and Neurological soundtracks, and listen to the Pad Anthem performed by Green Sun. Grab your earphones!
     </p>
     <p>
-      Over the years maps have been revamped, bots improved, Killerducks kept hungry, weapons re-polished and much more! In all, there are 24 maps. Each 
-      supports up to 7 game types, comprising WoP's unique Spray Your Color, Last Pad Standing, Big Balloon, and of course Capture The Lolly. Meet scaled-up 
-      and richly detailed environments of everyday places, where imaginative characters go berserk with an array of colorful plastic weaponry and powerups. 
-      Start rockin' to the soundtrack of Dieselkopf, and Neurological and listen to the Pad-Anthem, performed by Green Sun. So, grab your earphones!
+      Not enough human players on public servers? Practice with bots, and join the community on the official PadWorld server for Padday community events 
+      every first Sunday of the month at 7:00 pm CET.
     </p>
     <p>
-      Not enough human players on public servers? Practice with bots and join the community on the official PadWorld server for the Padday community events, 
-      every first Sunday of a month 7:00pm (CET).
+      Additional license information: The game code is publicly developed and released under the GNU GPL v2.0. The game assets, however, are protected by 
+      copyright.
     </p>
   </description>
   <url type="homepage">https://worldofpadman.net</url>
   <url type="bugtracker">https://github.com/PadWorld-Entertainment/worldofpadman/issues</url>
+  <url type="contribute">https://github.com/PadWorld-Entertainment/worldofpadman/blob/main/CONTRIBUTING.md</url>
   <url type="vcs-browser">https://github.com/PadWorld-Entertainment/worldofpadman</url>
   <screenshots>
     <screenshot type="default"><image>https://a.fsdn.com/con/app/proj/worldofpadman/screenshots/309709.jpg</image></screenshot>
