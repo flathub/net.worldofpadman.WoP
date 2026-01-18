@@ -47,6 +47,8 @@ modules:
         path: net.worldofpadman.WoP.svg
       - type: file
         path: net.worldofpadman.WoP.metainfo.xml
+      - type: patch
+        path: ci-remove-march-k8-reference.patch
       - type: script
         commands:
           - exec /app/share/games/wop/wop.* "$@"
