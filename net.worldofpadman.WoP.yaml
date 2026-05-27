@@ -1,4 +1,4 @@
-app-id: net.worldofpadman.WoP
+id: net.worldofpadman.WoP
 tags:
   - proprietary
 runtime: org.freedesktop.Platform
@@ -30,31 +30,39 @@ modules:
       - BUILD_RENDERER_VULKAN=0
     sources:
       - type: archive
-        url: https://github.com/PadWorld-Entertainment/worldofpadman/releases/download/v1.6.2/wop-1.6.2-full-unified.zip
-        sha256: 526d5936225b37fa8a5b94a7c02dc600126d1f2fb1155fd0e372c36075344335
+        url: https://github.com/PadWorld-Entertainment/worldofpadman/releases/download/v1.7.0/wop-1.7.0-unified.zip
+        sha256: 2eb94c0d98dadc70ce0f2e87780280cdbffd4a838b267f523835dc91bed30714
+        strip-components: 0
+        dest: wop-data
       - type: git
         url: https://github.com/PadWorld-Entertainment/worldofpadman.git
-        tag: v1.6.2
-        commit: 523c835eb0738d0da22b0e078a587108e8c10e30
+        tag: v1.7.0
+        commit: 8da7d0eb7205a2a1dff3f8cb07010214337796e2
+        x-checker-data:
+          type: git
+          tag-pattern: ^(v[\d.]+)$
       - type: file
         path: net.worldofpadman.WoP.desktop
       - type: file
         path: net.worldofpadman.WoP.svg
       - type: file
         path: net.worldofpadman.WoP.metainfo.xml
+      - type: patch
+        path: ci-remove-march-k8-reference.patch
       - type: script
         commands:
           - exec /app/share/games/wop/wop.* "$@"
         dest-filename: worldofpadman
       - type: shell
         commands:
-          - rm *.x86_64 *.exe *.so *.dylib
+          - rm wop-data/*.x86_64 wop-data/*.exe wop-data/*.so wop-data/*.dylib
+          - rm -r wop-data/*.x86_64.app
     post-install:
       - mkdir -p /app/share/games/wop
       - install -m 0755 build/release-linux-*/wop.* /app/share/games/wop/
       - install -m 0755 build/release-linux-*/renderer_opengl1_*.so /app/share/games/wop/
       - install -m 0755 build/release-linux-*/renderer_opengl2_*.so /app/share/games/wop/
-      - cp -r wop /app/share/games/wop/wop
+      - cp -r wop-data/wop /app/share/games/wop/wop
       - install -Dm755 worldofpadman /app/bin/worldofpadman
       - install -Dm644 net.worldofpadman.WoP.desktop /app/share/applications/net.worldofpadman.WoP.desktop
       - install -Dm644 net.worldofpadman.WoP.svg /app/share/icons/hicolor/scalable/apps/net.worldofpadman.WoP.svg
